@@ -1,37 +1,50 @@
-body{
+body {
     text-align: center;
-    
+    background-color: #f0f0f0; /* Cor de fundo mais suave */
 }
 
-.img{
-    width: 414px;
-    margin-top: 69px;
-
+h1 {
+    color: #333; /* Cor mais escura para o título */
 }
 
-.quadrado{
-    text-align: center;
-    width: 58px;
-    background: #eee;
+.img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.quadrado {
+    width: 15%; /* Alteração no tamanho para tornar responsivo */
+    padding-top: 3%; /* Proporção quadrada */
+    background: #ebe9e9;
     display: inline-block;
-    padding: 40px;
-    font-size: 60px;
-    margin: 5px;
+    font-size: 5vw; /* Tamanho de fonte responsivo */
+    margin: 1%;
     cursor: pointer;
-    color: #eee;
+    color: #333; /* Cor do texto mais escura */
+    transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
 }
 
-.jogador, .vencedor{
+.quadrado:hover {
+    background-color: #ddd; /* Cor de fundo mais clara ao passar o mouse */
+}
 
-    font-size: 30px;
+.jogador, .vencedor {
+    font-size: 3vw; /* Tamanho de fonte responsivo */
     margin-top: 10px;
-
+    color: #333; /* Cor do texto mais escura */
 }
 
 .button {
-    margin-top: 10px;
-    width:100px;
-    height: 30px;
-    background: #eee;
+    margin-top: 20px; /* Mais espaço acima do botão */
+    width: 100px;
+    height: 40px; /* Altura do botão aumentada */
+    background: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho de fonte do botão */
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
 }
+
+
